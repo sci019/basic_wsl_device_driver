@@ -49,15 +49,10 @@ make
 * wslのhomeディレクトリの方が良いらしい？  
   https://github.com/microsoft/WSL/issues/8045
 
-## ビルドしたカーネルを好きなディレクトリにコピー
-```shell
-target_dir=/mnt/c/Users/{ユーザ名}/SW/dev_drv
-cp vmlinux $target_dir
-touch /mnt/c/Users/.wslconfig
-```
 ## /.wslconfigの編集
-```wsll2
-kernel=C:\\Users\\{ユーザ名}\\SW\\dev_drv\\vmlinux
+```
+[wsl2]
+kernel=C:\\Users\\{ユーザ名}\\basic_wsl_device_driver\\WSL2-Linux-Kernel-linux-msft-wsl-5.15.167.4\\vmlinux
 ```
 * `C:\Users\{ユーザ名}`,`C:\Users`のどちらかには`.wslconfig`を置く必要がある
 
