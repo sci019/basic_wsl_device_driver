@@ -1,4 +1,4 @@
-# install手順・実行手順
+# WSLでのデバイスドライバ環境のインストール手順・実行手順
 * 参考サイト
   https://zenn.dev/melos/articles/f9afeaa953c279
 
